@@ -1,1 +1,34 @@
 
+# Architecture
+
+This folder contains the solution architecture, system design, process flow diagrams, and agent orchestration diagrams for SDLC Foundry.
+
+## High-Level Flow
+
+Requirements (BRD/SOP/Transcript)
+↓
+Requirement Analyzer Agent
+↓
+PDD/SDD Generator Agent
+↓
+Human Approval
+↓
+Architecture Planner Agent
+↓
+Workflow Skeleton Builder Agent
+↓
+Human Enhancement
+↓
+Test Case Generator Agent
+↓
+Test Execution human in loop
+
+## Components
+
+- UiPath Maestro
+- Agent Builder
+- UiPath Apps
+- Studio Web
+- Test Cloud
+- Coding Agents (Claude Code / Cursor)
+- Human-in-the-Loop Approvals
