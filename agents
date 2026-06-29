@@ -1,1 +1,24 @@
 
+# Agents
+
+This folder contains the agent definitions and workflows used in SDLC Foundry.
+
+## Agents
+
+### Agent 1 - Requirement Analyzer
+Analyzes BRDs, SOPs, and process walkthrough transcripts to extract process understanding, applications, business rules, and exceptions.
+
+### Agent 2 - PDD Generator
+Generates Process Definition Document (PDD)  drafts from analyzed requirements.
+
+### Agent 3 - SDD Generator
+Generates Solution Design Document (SDD)  drafts from analyzed requirements.
+
+### Agent 4 - Architecture Planner
+Designs the automation architecture, reusable components, framework recommendation, and workflow structure.
+
+### Agent 5 - Workflow Skeleton Builder
+Generates an automation-ready UiPath bot skeleton with activities, placeholders, exception handling, and TODO items.
+
+### Agent 6 - Test Case Generator
+Creates functional, negative, and edge-case test scenarios from approved requirements.
